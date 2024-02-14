@@ -1,0 +1,199 @@
+
+@font-face {
+	font-family: 'balsamiq-sans';
+	src: url('../fuentes/balsamiq-sans/BalsamiqSans-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+	font-family: balsamiq-sans,Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+	cursor: pointer;
+}
+video{
+	width: 100%;
+	border-radius: 4%;
+}
+.img-traducir{
+	rotate: 0%;
+}
+.img-traducir:hover{
+	transform: rotate(15deg);
+}
+
+.info-btn:hover{
+	filter: brightness(1.3);
+}
+/*-----------------------------Información css-----------------------------*/
+#informacion-objetivos .card{
+	margin-left: 2%;
+}
+#informacion-contenido-menu{
+	border: 0;
+}
+.fondo-azul{
+	background-color: #62a4f5;
+}
+.fondo-amarillo{
+	background-color: #f8b879;
+}
+.fondo-verde{
+	background-color: #98d180;
+}
+.fondo-cyan{
+	background-color: #A2C4C9;
+}
+.fondo-violeta{
+	background-color: #C9A3B6;
+}
+.informacionDensCuento{
+    height: 290px;
+}
+/*centrar texto en imagen eso debe ir en el texto, el contenedor de la imagen y el texto un posicion aboslute
+.titulo-informacion{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}*/
+/*-----------------------------header/*-----------------------------*/
+header .nav-item img{
+	width: 3.3em;
+}
+
+header .pagina{
+	font-size: 2.1em;
+	text-decoration: none;
+}
+header .pagina:hover{
+	text-decoration: underline;
+}
+.logo{
+	width: 70px;
+}
+.texto-rosa{
+	
+	color: #ec40e1;
+}
+.texto-cafe{
+	color: #b9630c;
+}
+.texto-amarillo{
+	color: rgb(225, 216, 45);
+}
+.imagen-traduccion{
+	height: 1%;
+}
+/*/*-----------------------------footer/*-----------------------------*/
+footer p{
+	font-size: 1em;
+}
+.fondo-footer{
+	background-color: #085394;
+}
+
+/*-----------------------------Index/*-----------------------------*/
+#indice button{
+	font-size: 2em;
+}
+#indice a:hover{
+	background-color: aquamarine;
+}
+#navbarNav{
+	margin-top: 1%;
+}
+/*----------------------------Cuento/*-----------------------------*/
+.btn-carousel-cuento{
+	width: 8%;
+}
+/*-----------------------------Media query-------------------------*/
+
+/* `sm` applies to x-small devices (portrait phones, min  576px)*/
+@media (min-width:  0px) { 
+	#indice button{
+		font-size: 1em;
+	}
+	#navbarNav li{
+		border-radius: 0.5rem;
+	}
+	header .nav-item img {
+		width: 5em;
+	}
+}
+
+/* `md` applies to small devices (landscape phones, min  768px)*/
+@media (min-width: 767.98px) {
+	#informacion-quienes-somos p{
+		margin-top: 3%;
+	}
+	#indice button{
+		font-size: 1.4em;
+	}
+	
+	
+
+}
+
+/* `lg` applies to medium devices (tablets, min  992px)*/
+@media (min-width: 991.98px) { 
+	p{
+		font-size: 1em;
+	}
+	.carousel-inner{
+		height: 700px;
+	}
+	#indice button{
+		font-size: 2em;
+	}
+}
+
+/* `xl` applies to large devices (desktops, min  1200px)*/
+@media (min-width: 1199.98px) { 
+	
+	.nav-link{
+		font-size: 1.3em;
+	}
+		
+	p{
+		font-size: 1.4em;
+	}
+
+	h5{
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 2.3em;
+		font-weight: bold;
+		margin-top: 2%;
+	}
+	#navbarNav li{
+		border-radius: 0;
+	}
+	header .nav-item img {
+		width: 3em;
+	}
+
+}
+/* `xxl` applies to x-large devi
+(large desktops, min  1400px)*/
+@media (min-width: 1399.98px) {
+
+	.nav-link{
+		font-size: 1.7em;
+	}
+		
+	p{
+		font-size: 1.6em;
+	}
+	#informacion-quienes-somos .btn{
+		max-width: 25%;
+	}
+	#infomracion-contenido{
+		margin-top: 4%;
+	}
+	
+ }
