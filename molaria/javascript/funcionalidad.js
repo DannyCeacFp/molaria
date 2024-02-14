@@ -47,6 +47,15 @@ $("body").on("click",".idioma", function () {
 
 });
 
+/*
+Cambiar de mamá a papá:
+cuento-parrafo-2"
+cuento-parrafo-3"
+cuento-parrafo-43
+cuento-parrafo-44
+*/
+
+
 /*traduccion index
 {
   "index-texto-1": "Cuento",
